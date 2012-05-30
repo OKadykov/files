@@ -1,6 +1,5 @@
 ﻿// меню 23.04.2012.cpp: определяет точку входа для консольного приложения.
 //
-//
 #include "stdafx.h"
 #include <string>
 #include <iostream>
