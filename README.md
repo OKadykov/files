@@ -139,13 +139,7 @@ void linklist::deletFROMcenter(){
 
 
 void linklist::add( string d)			//добавление элемнта
-{		
-	/*//добавление в начало списка
-	link*newlink= new link;				//выделяем память
-	newlink->data=d;					//запоминаем данные
-	newlink->next=first;				//запоминаем значение first
-	first=newlink;					//first указывает на новый элемент 
-	*/
+{
 	//добавление в конец списка
 		link *current = first;
 		link *newlink = new link;
@@ -532,14 +526,3 @@ int main()
 	std::system("pause");
 	return 0;
 	}
-
-
-	/*//добавление в центр
-	while(true){
-							cout<<"spisok\n vedite stroki";
-							string stroka;
-							cin>>stroka;
-							system("cls");
-							addcentr->addcenter(stroka);
-							addcentr->Showfromfirst();
-						}*/
